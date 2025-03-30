@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container_outer {
+    width: 462px;
+    height: 604px;
+    /* border: 1px solid blue; */
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    font-family: "Inter", sans-serif;
+
+}
+
+.top_container {
+    width: 343px;
+    height: 24px;
+    /* border: 1px solid red; */
+    color: #FF6B82;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    margin: 0 10px;
+}
+
+.line {
+    border-bottom: 2px solid #c8c8c8;
+    height: 12px;
+    width: 90px;
+}
+
+.unit1 {
+    border: 1px solid #c8c8c8;
+   
+}
+
+.unit2 {
+    border: 1px solid #c8c8c8;
+  
+}
+
+.unit3 {
+    border: 1px solid #c8c8c8;
+}
+
+#product-options {
+    width: 343px;
+    height: 393px;
+    /* border: 1px solid green; */
+    display: grid;
+    align-content: space-evenly;
+}
+
+.bottom_container {
+    width: 343px;
+    height: 40px;
+    /* border: 1px solid brown; */
+    border-radius: 5px;
+    color: white;
+    background-color: #FF6B82;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.trademark {
+    font-style: italic;
+    position: relative;
+    left: 50%;
+    bottom: 95%;
+    color: #c8c8c8;
+}
+
+
+.detailshidden {
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 65px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionSelector {
+    display: grid;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 8px 8px;
+}
+
+select {
+    padding: 8px 25px;
+    font-size: 17px;
+    border: 1px solid #c8c8c8;
+    display: flex;
+}
+
+.offer {
+    padding: 3px 3px;
+    background-color: #FF6B82;
+    color: white;
+
+}
+
+.first {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.srNo {
+    padding: 5px;
+    margin-top: 18px;
+}
+
+.cancelprice {
+    text-decoration: line-through;
+    color: #c8c8c8;
+    font-size: 13px;
+}
+
+.hidden {
+    display: none;
+}
+
+.final{
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+}
